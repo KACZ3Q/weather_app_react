@@ -12,6 +12,9 @@ const setBackgroundImage = (weather, setBackground) => {
         case 'Mist':
           setBackground('haze');
           break;
+        case 'Fog':
+          setBackground('haze');
+          break;  
         case 'Clear':
         setBackground('clear');
         break;
